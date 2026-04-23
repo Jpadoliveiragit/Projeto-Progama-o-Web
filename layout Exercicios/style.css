@@ -1,0 +1,138 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#ddd;
+  font-family:Arial;
+  padding:20px;
+}
+
+.bloco{
+  background:white;
+  margin-bottom:30px;
+  padding:20px;
+}
+
+.bloco h2{
+  margin-bottom:10px;
+}
+
+.borda{
+  border:2px solid blue;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+.borda2{
+  border:2px solid orange;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+.flex{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.botao{
+  border:1px solid black;
+  padding:5px 10px;
+}
+
+.l1{
+  display:flex;
+  gap:20px;
+}
+
+.l1-esq, .l1-dir{
+  flex:1;
+  border:2px solid green;
+  padding:10px;
+}
+
+.l2{
+  display:flex;
+  gap:20px;
+}
+
+.l2-main{
+  flex:2;
+  border:2px solid purple;
+  padding:10px;
+}
+
+.l2-lateral{
+  flex:1;
+  border:2px solid pink;
+  padding:10px;
+}
+
+.l3-header{
+  display:flex;
+  justify-content:space-between;
+  border:2px solid teal;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+.l3-hero{
+  border:2px solid red;
+  padding:20px;
+  text-align:center;
+}
+
+.motivos{
+  display:flex;
+  gap:10px;
+}
+
+.motivo{
+  border:2px solid yellow;
+  padding:10px;
+  flex:1;
+}
+
+.news{
+  display:flex;
+  gap:10px;
+}
+
+.card-news{
+  border:2px solid purple;
+  padding:10px;
+  flex:1;
+}
+
+.topo{
+  display:flex;
+  justify-content:space-between;
+  border:2px solid blue;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+.grid-cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+}
+
+.card{
+  border:2px solid brown;
+  padding:20px;
+  text-align:center;
+}
+
+img{
+  width:100%;
+  height:auto;
+}
+
+.rodape{
+  text-align:center;
+  margin-top:20px;
+}
