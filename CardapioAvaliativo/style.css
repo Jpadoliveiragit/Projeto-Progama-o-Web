@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: #5c1a1b;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+/* NAV */
+nav {
+  background: #3e1f0d;
+}
+
+.menu-navegacao {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.menu-navegacao li a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-navegacao li a:hover {
+  background: #8b2c2d;
+}
+
+/* LAYOUT */
+.container-flex {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+main {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* CARDAPIO */
+.cardapio-secao {
+  margin-bottom: 20px;
+}
+
+.grid-itens {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.item-cardapio {
+  background: white;
+  padding: 15px;
+  flex: 1 1 200px;
+}
+
+/* ASIDE */
+.aside-card {
+  background: white;
+  padding: 15px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: #3e1f0d;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
